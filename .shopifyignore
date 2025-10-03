@@ -1,0 +1,39 @@
+# =============== #
+#  Node & Vendor  #
+# =============== #
+node_modules/
+package.json
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =============== #
+#  Build / Output #
+# =============== #
+dist/
+build/
+*.map
+
+# =============== #
+#  Tailwind Files #
+# =============== #
+# Tailwind config and generated output
+tailwind.config.js
+postcss.config.js
+
+# =============== #
+#  Local Dev Only #
+# =============== #
+.env
+.env.*
+.vscode/
+.idea/
+*.log
+
+# =============== #
+#  Design Files   #
+# =============== #
+*.fig
+*.psd
+*.ai
+*.sketch
